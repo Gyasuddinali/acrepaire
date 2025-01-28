@@ -11,8 +11,8 @@ function About() {
         <div className="col-lg-6">
           <h2>Our Story</h2>
           <p>
-            Founded in 2005, QuickFix Appliance Repair has been serving our local community with top-notch appliance
-            repair services for over 15 years. Our journey began with a simple mission: to provide fast, reliable, and
+            Founded in 2024, Amrubabu Appliance Repair has been serving our local community with top-notch appliance
+            repair services for over 1 years. Our journey began with a simple mission: to provide fast, reliable, and
             affordable repair solutions for all major household appliances.
           </p>
           <p>
