@@ -1,17 +1,17 @@
 import React from "react"
-import rud from '../images/amru.jpg'
+import cmb1 from '../images/cmb1.jpg'
 function About() {
   return (
     <div className="container py-5">
-      <h1 className="text-center mb-5">About QuickFix Appliance Repair</h1>
+      <h1 className="text-center mb-5">About InstentFix Appliance Repair</h1>
       <div className="row align-items-center">
         <div className="col-lg-6 mb-4 mb-lg-0">
-          <img src={rud} alt="QuickFix Team" className="img-fluid rounded shadow" />
+          <img src={cmb1} alt="QuickFix Team" className="img-fluid rounded shadow" />
         </div>
         <div className="col-lg-6">
           <h2>Our Story</h2>
           <p>
-            Founded in 2024, Amrubabu Appliance Repair has been serving our local community with top-notch appliance
+            Founded in 2024,InstentFix Appliance Repair has been serving our local community with top-notch appliance
             repair services for over 1 years. Our journey began with a simple mission: to provide fast, reliable, and
             affordable repair solutions for all major household appliances.
           </p>

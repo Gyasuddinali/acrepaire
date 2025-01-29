@@ -7,7 +7,7 @@ function Header() {
       <nav className="navbar navbar-expand-lg navbar-dark">
         <div className="container">
           <Link to="/" className="navbar-brand">
-            Amrubabu Appliance Repair
+          InstentFix Appliance Repair
           </Link>
           <button
             className="navbar-toggler bg-white btn-white"

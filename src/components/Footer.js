@@ -8,7 +8,7 @@ function Footer() {
           <div className="col-md-4 mb-3 mb-md-0">
             <h5>About Us</h5>
             <p className="small">
-              Amrubabu Appliance Repair is your trusted partner for all home appliance repairs. With years of
+            InstentFix Appliance Repair is your trusted partner for all home appliance repairs. With years of
               experience, we provide fast, reliable, and affordable repair services.
             </p>
           </div>
