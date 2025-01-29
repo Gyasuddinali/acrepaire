@@ -14,17 +14,32 @@ function ContactForm() {
     setFormData((prevState) => ({ ...prevState, [name]: value }))
   }
 
-  const handleSubmit = (e) => {
-    e.preventDefault()
-    console.log("Form submitted:", formData)
-    alert("Thank you for your message. We will get back to you soon!")
-    setFormData({ name: "", email: "", phone: "", service: "", message: "" })
+  const buttonhnd=async(e1)=>{
+    e1.preventDefault();
+  
+    fetch("https://portfolioback-nu.vercel.app/accontact", {
+  
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(formData),
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        
+          alert("we will contact  you soon!n Have a good day");
+       
+        })
+  
+    
+  console.log(formData);
   }
 
   return (
     <div className="bg-gray-100 p-4 sm:p-8 rounded-lg">
       <h2 className="text-2xl font-bold mb-6">Contact Us for Repair</h2>
-      <form onSubmit={handleSubmit} className="space-y-4">
+      <form onSubmit={buttonhnd} className="space-y-4">
         <div>
           <label htmlFor="name" className="block mb-1">
             Name

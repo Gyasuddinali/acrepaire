@@ -42,6 +42,11 @@ function Header() {
                   About
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link to="/contactlist" className="nav-link text-white">
+                  Get
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
