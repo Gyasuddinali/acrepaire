@@ -1,16 +1,17 @@
 import React, { useEffect, useState } from 'react';
-
+import { useNavigate } from 'react-router-dom';
 const ContactGet = () => {
   const [contacts, setContacts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
-
+const nav=useNavigate();
   useEffect(() => {
     const fetchContacts = async () => {
         const username = prompt("Enter admin name:");
     const password = prompt("Enter admin password:");
     if (username !== "gyasu" || password !== "1234") {
       alert("username or password. Didn't match.");
+      nav("/")
       return; 
     } 
       try {

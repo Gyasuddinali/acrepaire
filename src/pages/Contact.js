@@ -14,11 +14,27 @@ function Contact() {
     setFormData((prevState) => ({ ...prevState, [name]: value }))
   }
 
-  const handleSubmit = (e) => {
-    e.preventDefault()
-    console.log("Form submitted:", formData)
-    alert("Thank you for your message. We will get back to you soon!")
-    setFormData({ name: "", email: "", phone: "", service: "", message: "" })
+ 
+  const buttonhnd=async(e1)=>{
+    e1.preventDefault();
+  
+    fetch("https://portfolioback-nu.vercel.app/accontact", {
+  
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(formData),
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        
+          alert("we will contact  you soon!n Have a good day");
+       
+        })
+  
+    
+  console.log(formData);
   }
 
   return (
@@ -48,7 +64,7 @@ function Contact() {
           </ul>
         </div>
         <div className="col-md-6">
-          <form onSubmit={handleSubmit}>
+          <form onSubmit={buttonhnd}>
             <div className="mb-3">
               <label htmlFor="name" className="form-label">
                 Name
