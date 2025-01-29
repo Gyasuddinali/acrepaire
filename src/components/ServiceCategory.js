@@ -1,6 +1,13 @@
 import React from "react"
-
+import { useNavigate } from "react-router-dom"
 function ServiceCategory({ title, description, imageUrl }) {
+
+  const navigate = useNavigate()  
+
+  const handleClick = () => {
+    
+    navigate('/contact') 
+  }
   return (
     <div className="card h-100">
       <img
@@ -12,7 +19,7 @@ function ServiceCategory({ title, description, imageUrl }) {
       <div className="card-body d-flex flex-column">
         <h5 className="card-title">{title}</h5>
         <p className="card-text">{description}</p>
-        <button className="btn btn-primary mt-auto">Schedule Repair</button>
+        <button className="btn btn-primary mt-auto" onClick={handleClick}>Schedule Repair</button>
       </div>
     </div>
   )
