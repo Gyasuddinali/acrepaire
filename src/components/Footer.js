@@ -8,7 +8,7 @@ function Footer() {
           <div className="col-md-4 mb-3 mb-md-0">
             <h5>About Us</h5>
             <p className="small">
-              QuickFix Appliance Repair is your trusted partner for all home appliance repairs. With years of
+              Amrubabu Appliance Repair is your trusted partner for all home appliance repairs. With years of
               experience, we provide fast, reliable, and affordable repair services.
             </p>
           </div>
@@ -28,7 +28,7 @@ function Footer() {
               <br />
               Siwan Bihar
               <br />
-              Phone: 1234567890
+              Phone: 72090 50893
               <br />
               Email: amrubabu@gmail.com
             </address>

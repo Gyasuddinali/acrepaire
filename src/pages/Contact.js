@@ -43,7 +43,7 @@ function Contact() {
               <strong>Email:</strong> amrubabu@gmail.com
             </li>
             <li>
-              <strong>Hours:</strong> Monday - Friday: 8am - 6pm, Saturday: 9am - 3pm
+              <strong>Hours:</strong> Monday - Thursday: 8am - 6pm, Friday:9am-12pm,3pm-6pm ,Saturday: 9am - 3pm
             </li>
           </ul>
         </div>
