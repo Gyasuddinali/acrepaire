@@ -53,10 +53,10 @@ function Contact() {
               Siwan Bihar
             </li>
             <li>
-              <strong>Phone:</strong>7209050893
+              <strong>Phone:</strong>9199245536
             </li>
             <li>
-              <strong>Email:</strong> amrubabu@gmail.com
+              <strong>Email:</strong> acRepair@gmail.com
             </li>
             <li>
               <strong>Hours:</strong> Monday - Thursday: 8am - 6pm, Friday:9am-12pm,3pm-6pm ,Saturday: 9am - 3pm

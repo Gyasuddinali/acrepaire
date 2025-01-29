@@ -1,5 +1,5 @@
 import React from "react"
-
+import { FaFacebook,FaInstagram, FaYoutube } from 'react-icons/fa';
 function Footer() {
   return (
     <footer className="bg-dark text-light py-4">
@@ -28,10 +28,31 @@ function Footer() {
               <br />
               Siwan Bihar
               <br />
-              Phone: 72090 50893
+              Phone: 9199245536
               <br />
-              Email: amrubabu@gmail.com
+              Email: acRepair@gmail.com
             </address>
+          </div>
+
+          <div className="col-md-4 mb-3 mb-md-0">
+            <h5>Visit our web</h5>
+            <ul className="list-unstyled small">
+              <li> <a
+                href="https://www.instagram.com/iam_gyasu/"
+                className="fs-2 mx-2 float-start"
+              >
+                <FaInstagram />
+              </a></li>
+              <li>              <a
+                href="https://www.facebook.com/gyasusrkian91992"
+                className="fs-2 mx-2 float-start"
+              >
+                <FaFacebook/>
+              </a>
+                  </li>
+              <li><a href="#"
+                className="fs-2 mx-2 float-start"><FaYoutube/></a></li>
+            </ul>
           </div>
         </div>
         <hr className="my-4" />
