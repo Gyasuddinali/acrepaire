@@ -8,7 +8,7 @@ function Footer() {
           <div className="col-md-4 mb-3 mb-md-0">
             <h5>About Us</h5>
             <p className="small">
-            InstentFix Appliance Repair is your trusted partner for all home appliance repairs. With years of
+            InstentRepair is your trusted partner for all home appliance repairs. With years of
               experience, we provide fast, reliable, and affordable repair services.
             </p>
           </div>
@@ -57,7 +57,7 @@ function Footer() {
         </div>
         <hr className="my-4" />
         <div className="text-center small">
-          &copy; {new Date().getFullYear()} QuickFix Appliance Repair. All rights reserved.
+          &copy; {new Date().getFullYear()} InstentRepair. All rights reserved.
         </div>
       </div>
     </footer>
