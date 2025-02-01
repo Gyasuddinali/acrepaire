@@ -9,14 +9,12 @@ function Header() {
           <Link to="/" className="navbar-brand">
           InstentFix Appliance Repair
           </Link>
-          <button
-            className="navbar-toggler bg-white btn-white"
+  <button
+            className="navbar-toggler mt-2 btn-white bg-white"
             type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
             aria-controls="navbarNav"
-            aria-expanded="false"
             aria-label="Toggle navigation"
+            onClick={handleToggle}
           >
             <span className="navbar-toggler-icon"></span>
           </button>
